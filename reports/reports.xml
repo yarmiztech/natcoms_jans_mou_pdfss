@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+<!--    <report id="natcom_natcom_jan_view"-->
+<!--      		model="account.move"-->
+<!--      		string="Natcom PDF Mou"-->
+<!--      		report_type="qweb-pdf"-->
+<!--      		name="natcom_jan_pdf.natcom_jan_view"-->
+<!--      		file="natcom_jan_pdf.natcom_jan_view"-->
+<!--    />-->
+<!--	<record id="natcom_jan_pdf.natcom_natcom_jan_view" model="ir.actions.report">-->
+<!--        <field name="name">Natcom PDF REC</field>-->
+<!--        <field name="model">account.move</field>-->
+<!--        <field name="report_type">qweb-pdf</field>-->
+<!--        <field name="report_name">natcom_jan_pdf.natcom_jan_view</field>-->
+<!--        <field name="report_file">natcom_jan_pdf.natcom_jan_view</field>-->
+<!--        <field name="binding_model_id" ref="account.model_account_move"/>-->
+<!--        <field name="binding_type">report</field>-->
+
+<record id="natcom_natcom_aril_view" model="ir.actions.report">
+        <field name="name">Natcom PDF APP</field>
+        <field name="model">account.move</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">natcoms_jans_mou_pdfss.natcom_april_view</field>
+        <field name="report_file">natcoms_jans_mou_pdfss.natcom_april_view</field>
+        <field name="binding_model_id" ref="account.model_account_move"/>
+        <field name="binding_type">report</field>
+
+
+</record>
+
+</odoo>
